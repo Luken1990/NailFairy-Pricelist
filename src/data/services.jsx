@@ -25,7 +25,7 @@ export const services = [
       },
       {
         name: 'Infill Acrylic With Gel Polish',
-        info: 'Pink and White + £3',
+        info: 'Pink and White + £5',
         price: 25,
       },
       {
@@ -44,7 +44,7 @@ export const services = [
       {
         name: 'Natural Nail Overlay',
         info: 'Including removal',
-        price: 20,
+        price: 30,
       },
       {
         name: 'Full Set Overlay',
@@ -62,22 +62,27 @@ export const services = [
     treatments: [
       {
         name: 'Shellac Manicure',
+        info: 'Pink & White +£5',
         price: 22,
       },
       {
         name: 'Shellac Pedicure',
+        info: 'Pink & White +£5',
         price: 37,
       },
       {
         name: 'Shellac Manicure and Pedicure',
+        info: 'Pink & White +£10',
         price: 57,
       },
       {
         name: 'Shellac Hands',
+        info: 'Pink & White +£5',
         price: 20,
       },
       {
         name: 'Shellac Toes',
+        info: 'Pink & White +£5',
         price: 23,
       },
     ],

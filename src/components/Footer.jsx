@@ -5,16 +5,19 @@ const Footer = () => {
   return (
     <footer className=" bg-base">
       <div className=" flex flex-col items-center p-10 text-text">
-        <h3 className=' font-semibold mb-4'>Opening Times</h3>
-        <div className='flex justify-between gap-8'>
+        <div className=' flex items-center mb-4 gap-2'>
+          <AiIcons.AiOutlineClockCircle />
+          <h3 className=" font-semibold">Opening Times</h3>
+        </div>
+        <div className="flex justify-between gap-4 w-[280px]">
           <p>Monday - Thursday:</p>
           <p>9:30 - 18:30</p>
         </div>
-        <div className='flex justify-between gap-8'>
+        <div className="flex justify-between gap-4 w-[280px]">
           <p>Thursday - Saturday:</p>
           <p>9:30 - 19:30</p>
         </div>
-        <div className='flex justify-between gap-8'>
+        <div className="flex justify-between gap-4 w-[280px]">
           <p>Sunday:</p>
           <p>Closed</p>
         </div>

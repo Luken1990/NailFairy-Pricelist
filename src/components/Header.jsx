@@ -5,10 +5,10 @@ const Header = () => {
   return (
     <header className="bg-base min-h-1/2">
       <div className="container mx-auto md:px-0 px-4">
-        <div className=" flex flex-col justify-between items-center md:flex-row py-20 relative gap-y-10">
+        <div className=" flex flex-col justify-between items-center md:flex-row py-20 relative gap-y-14">
           <div className="md:text-left text-center text-text">
-            <h1 className="text-6xl font-bold">Nail Fairy</h1>
-            <h3 className="text-4xl">PriceList</h3>
+            <h1 className="text-6xl font-bold mb-2">Nail Fairy</h1>
+            <h3 className="text-2xl text-white font-bold">PriceList</h3>
 
             <div className="flex flex-col gap-2 py-6 text-sm text-text">
               <div className="flex flex-row items-center gap-2 md:justify-start justify-center">
