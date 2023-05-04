@@ -8,7 +8,14 @@ export default {
       lg: '976px',
       xl: '1440px',
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#E8B4B8',
+        secondary: '#67595E',
+        base: '#EED6D3',
+        text: '#67595E',
+      },
+    },
   },
   plugins: [],
 };

@@ -8,7 +8,7 @@ export const services = [
       },
       {
         name: 'Acrylic Full Set with Gel Polish',
-        info: 'Pink and White + £3',
+        info: 'Pink and White + £5',
         price: 33,
       },
       {
@@ -42,16 +42,18 @@ export const services = [
     Title: 'SNS',
     treatments: [
       {
-        name: 'Natural Nail Overlay including Removal',
+        name: 'Natural Nail Overlay',
+        info: 'Including removal',
         price: 20,
       },
       {
-        name: 'Full Set Overlay including Removal',
-        price: 20,
+        name: 'Full Set Overlay',
+        info: 'Including removal',
+        price: 40,
       },
       {
         name: 'Full Set Pink and White',
-        price: 20,
+        price: 45,
       },
     ],
   },
