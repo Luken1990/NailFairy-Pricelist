@@ -10,12 +10,16 @@ const Footer = () => {
           <h3 className=" font-semibold">Opening Times</h3>
         </div>
         <div className="flex justify-between gap-4 w-[280px]">
-          <p>Monday - Thursday:</p>
+          <p>Monday - Wednesday:</p>
           <p>9:30 - 18:30</p>
         </div>
         <div className="flex justify-between gap-4 w-[280px]">
-          <p>Thursday - Saturday:</p>
+          <p>Thursday - Friday:</p>
           <p>9:30 - 19:30</p>
+        </div>
+        <div className="flex justify-between gap-4 w-[280px]">
+          <p>Saturday:</p>
+          <p>9:30 - 18:30</p>
         </div>
         <div className="flex justify-between gap-4 w-[280px]">
           <p>Sunday:</p>
