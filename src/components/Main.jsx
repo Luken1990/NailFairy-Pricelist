@@ -33,15 +33,7 @@ const Main = () => {
                         <td className="border border-base px-4 py-2 text-[14px] font-semibold">
                           {name}
                           {info ? (
-                            <ul  className="text-xs font-light pt-1 flex gap-3 list-disc list-inside">
-                              {info.map((item) => {
-                                return (
-                                  <li>
-                                    {item}
-                                  </li>
-                                );
-                              })}
-                            </ul>
+                            <p className="text-xs font-light pt-1">{info}</p>
                           ) : null}
                         </td>
                         <td className=" border border-base px-4 py-2 text-center w-1/6">
