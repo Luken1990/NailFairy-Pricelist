@@ -37,7 +37,7 @@ const Main = () => {
                           ) : null}
                         </td>
                         <td className=" border border-base px-4 py-2 text-center w-1/6">
-                          £{price}
+                          {price}
                         </td>
                       </tr>
                     );

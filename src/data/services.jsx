@@ -4,46 +4,47 @@ export const services = [
     treatments: [
       {
         name: 'Acrylic Full Set with Normal Polish',
-        price: 25,
+        price: `£25`,
       },
       {
         name: 'Acrylic Full Set with Gel Polish',
-        info: 'Pink and White + £5',
-        price: 35,
+        price: `£35`,
       },
       {
         name: 'Acrylic Full Set with BIAB',
-        info: 'Pink and White + £5',
-        price: 40,
+        price: `£40`,
       },
       {
         name: 'Gel Powder Full Set',
-        price: 30,
+        price: `£30`,
       },
       {
         name: 'Ombre Powder Full Set',
-        price: 40,
+        price: `£40`,
       },
       {
         name: 'Infill Acrylic With Normal Polish',
-        price: 20,
+        price: `£20`,
       },
       {
         name: 'Infill Acrylic With Gel Polish',
-        info: 'Pink and White + £5',
-        price: 25,
+        price: `£30`,
       },
       {
         name: 'Infill Gel Powder',
-        price: 20,
+        price: `£20`,
       },
       {
         name: 'Infill Ombre Powder',
-        price: 35,
+        price: `£35`,
       },
       {
         name: 'Two Big Toes',
-        price: 10,
+        price: `£10`,
+      },
+      {
+        name: 'Pink & White',
+        price: `+ £5`,
       },
     ],
   },
@@ -52,13 +53,16 @@ export const services = [
     treatments: [
       {
         name: 'Natural Nail Overlay',
-        info: 'Including removal | Pink and White + £5',
-        price: 30,
+        info: 'Including removal',
+        price: `£30`,
       },
       {
-        name: 'Full Set Overlay',
-        info: 'Including removal | Pink and White + £5',
-        price: 40,
+        name: 'On Extensions',
+        price: `+ £10`,
+      },
+      {
+        name: 'Pink & White',
+        price: `+ £5`,
       },
     ],
   },
@@ -67,33 +71,35 @@ export const services = [
     treatments: [
       {
         name: 'Gel Manicure',
-        info: 'Take Off + 5 | Pink & White +£5',
-        price: 30,
+        price: `£30`,
       },
       {
         name: 'Gel Pedicure',
-        info: 'Take Off + 5 | Pink & White +£5',
-        price: 37,
+        price: `£37`,
       },
       {
         name: 'Gel Manicure and Pedicure',
-        info: 'Take Off + 5 | Pink & White +£10',
-        price: 67,
+        price: `£65`,
       },
       {
         name: 'Gel Hands',
-        info: 'Take Off + 5 | Pink & White +£5',
-        price: 25,
+        price: `£25`,
       },
       {
         name: 'Gel Toes',
-        info: 'Take Off + 5 | Pink & White +£5',
-        price: 27,
+        price: `£27`,
       },
       {
         name: 'BIAB',
-        info: 'Take Off + 5 | Pink & White +£5',
-        price: 30,
+        price: `£30`,
+      },
+      {
+        name: 'Pink & White',
+        price: `+ £5`,
+      },
+      {
+        name: 'Take Off',
+        price: `+ £5`,
       },
     ],
   },
@@ -102,8 +108,8 @@ export const services = [
     treatments: [
       {
         name: 'Customised Nail Art Designs',
-        info: 'Per nail',
-        price: 3,
+        // info: 'Depends on time and complexity',
+        price: 'From £5',
       },
     ],
   },
@@ -113,16 +119,16 @@ export const services = [
       {
         name: 'Manicure',
         info: 'Includes shape, cuticle work & polish gestures.',
-        price: 15,
+        price: `£15`,
       },
       {
         name: 'Pedicure',
         info: 'Includes soak, shape, cuticle work, hard skin removal & polish gestures.',
-        price: 27,
+        price: `£27`,
       },
       {
         name: 'Manicure and Pedicure',
-        price: 40,
+        price: `£40`,
       },
     ],
   },
@@ -131,11 +137,11 @@ export const services = [
     treatments: [
       {
         name: 'Hands',
-        price: 10,
+        price: `£10`,
       },
       {
         name: 'Feet',
-        price: 10,
+        price: `£10`,
       },
     ],
   },
@@ -144,17 +150,20 @@ export const services = [
     treatments: [
       {
         name: 'Polish',
-        price: 5,
+        price: `£5`,
       },
       {
         name: 'Gel Hands',
-        info: 'Pink & White +£5',
-        price: 20,
+        price: `£20`,
+      },
+      {
+        name: 'Pink & White',
+        price: `+ £5`,
       },
       {
         name: 'Pedicure',
         info: 'Includes soak, shape, cuticle work, scrub & polish gestures.',
-        price: 20,
+        price: `£20`,
       },
     ],
   },
@@ -163,19 +172,15 @@ export const services = [
     treatments: [
       {
         name: 'Gel / Shellac ',
-        price: 10,
+        price: `£10`,
       },
       {
         name: 'SNS',
-        price: 10,
+        price: `£10`,
       },
       {
         name: 'Acrylics',
-        price: 10,
-      },
-      {
-        name: 'Take Off & Manicure',
-        price: 20,
+        price: `£10`,
       },
     ],
   },
