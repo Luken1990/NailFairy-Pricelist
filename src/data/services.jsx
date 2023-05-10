@@ -11,10 +11,6 @@ export const services = [
         price: `£35`,
       },
       {
-        name: 'Acrylic Full Set with BIAB',
-        price: `£40`,
-      },
-      {
         name: 'Gel Powder Full Set',
         price: `£30`,
       },
@@ -43,7 +39,7 @@ export const services = [
         price: `£10`,
       },
       {
-        name: 'Pink & White',
+        name: 'White Tips',
         price: `+ £5`,
       },
     ],
@@ -58,10 +54,10 @@ export const services = [
       },
       {
         name: 'On Extensions',
-        price: `+ £10`,
+        price: `+ £5`,
       },
       {
-        name: 'Pink & White',
+        name: 'White Tips',
         price: `+ £5`,
       },
     ],
@@ -90,11 +86,7 @@ export const services = [
         price: `£27`,
       },
       {
-        name: 'BIAB',
-        price: `£30`,
-      },
-      {
-        name: 'Pink & White',
+        name: 'White Tips',
         price: `+ £5`,
       },
       {
@@ -104,11 +96,27 @@ export const services = [
     ],
   },
   {
+    Title: 'Builder Gel (BIAB)',
+    treatments: [
+      {
+        name: 'Natural Nail Overlay',
+        price: `£30`,
+      },
+      {
+        name: 'On Extensions',
+        price: `+ £10`,
+      },
+      {
+        name: 'White Tips',
+        price: `+ £5`,
+      },
+    ],
+  },
+  {
     Title: 'Nail Art',
     treatments: [
       {
         name: 'Customised Nail Art Designs',
-        // info: 'Depends on time and complexity',
         price: 'From £5',
       },
     ],
@@ -157,7 +165,7 @@ export const services = [
         price: `£20`,
       },
       {
-        name: 'Pink & White',
+        name: 'White Tips',
         price: `+ £5`,
       },
       {
@@ -168,7 +176,7 @@ export const services = [
     ],
   },
   {
-    Title: 'Removal Services',
+    Title: 'Removal Only Services',
     treatments: [
       {
         name: 'Gel / Shellac ',
